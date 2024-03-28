@@ -60,7 +60,7 @@
 
 /* About*/
 #About{
-    background-color:gray;
+    background-color:lightgray;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,7 +92,7 @@
     }
 /* styling slider */
 #clubs{
-    background-color: darkslategray;
+    background-color: rgba(25, 57, 161, 0.74);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,7 +114,7 @@ h5{
     color: #fff;
     }
     .title h2{
-    color: #fff;
+    color: darkblue;
     position: relative;
     text-transform: uppercase;
     font-size: 3rem;
@@ -133,7 +133,7 @@ h5{
 
 .content-area {
 	padding: 10% 0;
-    background-color: darkslategray; 
+    background-color: rgba(29, 65, 182, 0.548); 
 }
 .box.animate .content {
     transform: rotateY(180deg);
@@ -145,7 +145,7 @@ h5{
 	height: 400px;
 }
 .content {
-    transition: 0.8s;
+    transition: 0.7s;
     transform-style: preserve-3d;
     position: relative;
 }
@@ -217,8 +217,8 @@ h5{
  /*footer */
  
  .footer {
-    background-color: #222; /* Teal color */
-    color: white;
+    background-color: rgba(25, 57, 161, 0.74); /* Teal color */
+    color: #fff;
     text-align: center;
     padding: 20px;
     margin-top: 50px; /* Adjust as needed */
